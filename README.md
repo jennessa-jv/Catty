@@ -1,9 +1,9 @@
-Fullstack Chat App
+#Fullstack Chat App
 
 A modern real-time chat application built with the **MERN stack** (MongoDB, Express, React, Node.js) and **Socket.io**.  
 Users can sign up, log in, and chat instantly in a sleek, responsive interface.
 
-Features
+## Features
 - User authentication (Signup & Login)
 - Real-time messaging with Socket.io
 - Profile pictures via Cloudinary
@@ -11,7 +11,7 @@ Features
 - Fully responsive design
 - Built with clean and modular architecture
 
-Tech Stack
+## Tech Stack
 
 Frontend: React, Tailwind CSS, Zustand, Axios  
 Backend: Node.js, Express.js, MongoDB, Mongoose  
@@ -21,7 +21,7 @@ Authentication:* JWT & bcrypt
 
 
 
-Setup `.env` file (Backend):
+## Setup `.env` file (Backend):
 In your `backend/` folder, create a `.env` file and add:
 
 MONGODB_URI=your_mongodb_connection_string
@@ -38,17 +38,17 @@ NODE_ENV=development
 ## Build & Start the App
 From the project root (adjust commands if you separate frontend/backend):
 
-# install dependencies for backend
+## install dependencies for backend
 cd backend
 npm install
 
-# start backend server
+## start backend server
 npm run dev  # or `npm start` depending on your setup
 
-# install dependencies for frontend
+## install dependencies for frontend
 cd ../frontend
 npm install
 
-# start frontend
+## start frontend
 npm run dev  # or `npm start`
 
