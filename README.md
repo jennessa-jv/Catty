@@ -1,4 +1,4 @@
-#Fullstack Chat App
+# Fullstack Chat App
 
 A modern real-time chat application built with the **MERN stack** (MongoDB, Express, React, Node.js) and **Socket.io**.  
 Users can sign up, log in, and chat instantly in a sleek, responsive interface.
